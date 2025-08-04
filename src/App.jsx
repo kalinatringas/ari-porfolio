@@ -35,7 +35,7 @@ function App() {
   }
 
   return (
-    <div className='h-100vh overflow-auto'>
+    <div className='h-100vh'>
     <Navigate/>
     <Component/>
     <img className='fixed h-[70vh] -left-80 -bottom-80 animate-spin-slow' src="src/assets/CD.png" />

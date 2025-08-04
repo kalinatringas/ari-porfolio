@@ -7,6 +7,7 @@ export var design = [
         projects: [
             {
                 projectName: "Easy - LE SSERAFIM” Cover by Genesis Dance Crew",
+                thumbnail: "https://i.ytimg.com/vi_webp/7FPPvAMCXIU/maxresdefault.webp",
                 designs : [
                     "https://scontent-atl3-1.cdninstagram.com/v/t51.29350-15/448440301_1994470130986832_8123806420291544134_n.jpg?stp=dst-jpg_e35_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0uaW1hZ2VfdXJsZ2VuLjE0NDB4MTc5OS5zZHIuZjI5MzUwLmRlZmF1bHRfaW1hZ2UuYzIifQ&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2QEP79k0AkOK5O7sSobX-SYb3xlv7vM25OnSbr22oyDVWrqJfLFWs9uGT3cE14ql3fE&_nc_ohc=ux2rk_ucgq8Q7kNvwEUeOn4&_nc_gid=Gp6f9iXPZ68e9-KCyEJi4Q&edm=APoiHPcBAAAA&ccb=7-5&ig_cache_key=MzM5MTAyNTc0MTQ3NDE3NDMwMA%3D%3D.3-ccb7-5&oh=00_AfUh5H9N0DW7cP1XLIlD2dqKoM9R66tpBMEWRGgyq5jOQw&oe=6896AD4B&_nc_sid=22de04",
                     "https://scontent-atl3-3.cdninstagram.com/v/t51.29350-15/448547125_398956496472489_1610677776224694731_n.jpg?stp=dst-jpg_e35_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0uaW1hZ2VfdXJsZ2VuLjE0NDB4MTc5OS5zZHIuZjI5MzUwLmRlZmF1bHRfaW1hZ2UuYzIifQ&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2QEP79k0AkOK5O7sSobX-SYb3xlv7vM25OnSbr22oyDVWrqJfLFWs9uGT3cE14ql3fE&_nc_ohc=i5a-133-SvMQ7kNvwEQWzGB&_nc_gid=Gp6f9iXPZ68e9-KCyEJi4Q&edm=APoiHPcBAAAA&ccb=7-5&ig_cache_key=MzM5MTAyNTc0MTQ2NTkwNTE5MQ%3D%3D.3-ccb7-5&oh=00_AfUgn8bjQxyHdpbvGj9eKkZZJKm-2nMek5jvHePptCsBMQ&oe=6896D11B&_nc_sid=22de04",
@@ -20,6 +21,7 @@ export var design = [
             } ,
             {
                 projectName: "Get a Guitar - RIIZE Cover by Genesis Dance Crew",
+                thumbnail: "https://i.ytimg.com/vi_webp/-PFlnVexF80/maxresdefault.webp",
                 designs :[
                     "https://scontent-atl3-2.cdninstagram.com/v/t51.29350-15/452605244_1574490619765913_8568673398026343727_n.jpg?stp=dst-jpg_e35_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0uaW1hZ2VfdXJsZ2VuLjE0NDB4MTc5OS5zZHIuZjI5MzUwLmRlZmF1bHRfaW1hZ2UuYzIifQ&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2QHfJKMp-6cr44j3fgkFVeyt0MmzWoL0oWDLynfACeeO15D8n4kTNbs5RKj_iEmCedM&_nc_ohc=uOfnSuTKy-kQ7kNvwFYr_IC&_nc_gid=xA02avX9Gqo69arpAwVLug&edm=APoiHPcBAAAA&ccb=7-5&ig_cache_key=MzQxOTcxOTgwOTYyNzI3NDA0MA%3D%3D.3-ccb7-5&oh=00_AfUX4Y7VIFOODZ_ge2ofEuO5mavdHWuGjVDip8qWGaEyaQ&oe=68969F2E&_nc_sid=22de04",
                     "https://scontent-atl3-2.cdninstagram.com/v/t51.29350-15/452599886_458809717076681_6620516451085225491_n.jpg?stp=dst-jpg_e35_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0uaW1hZ2VfdXJsZ2VuLjE0NDB4MTc5OS5zZHIuZjI5MzUwLmRlZmF1bHRfaW1hZ2UuYzIifQ&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2QHfJKMp-6cr44j3fgkFVeyt0MmzWoL0oWDLynfACeeO15D8n4kTNbs5RKj_iEmCedM&_nc_ohc=UNbiuO3QA9kQ7kNvwEzHHqr&_nc_gid=xA02avX9Gqo69arpAwVLug&edm=APoiHPcBAAAA&ccb=7-5&ig_cache_key=MzQxOTcxOTgwOTYzNTU1MTU4OQ%3D%3D.3-ccb7-5&oh=00_AfVgdxP0knijWaMhGY8FzGSR8l1uPN6hWyhofNWIQp420Q&oe=6896B1B5&_nc_sid=22de04",
@@ -36,28 +38,75 @@ export var design = [
             },
             {
                 projectName: "We Don't Stop - Xikers Cover by Genesis Dance Crew",
+                thumbnail: "https://drive.google.com/file/d/1zcja-n3NIWuRJDgeUZvxP5VIgDIHBtOy/preview",
                 designs : [
-                    "https://drive.google.com/file/d/1Q8DbkRFrdTdrYA1r0_nD80Jn_SC-CXUn/preview",
-                    "https://drive.google.com/file/d/1lWYZEHYq98Yr8qNnDQjc6wWHiEIMbDlb/preview",
-                    "https://drive.google.com/file/d/18X0AjNH66ZA1s_d3DELEjQzb1vVxSzSZ/preview",
-                    "https://drive.google.com/file/d/1kKIZIHajowVLM_wVcBi8E4KPyg4iYL8q/preview",
-                    "https://drive.google.com/file/d/18faEsj2MW8QVFWVxUDk_7Cej0GQvUMIT/preview",
-                    "https://drive.google.com/filegit/d/1J4oluRWpPv3FfupQuNfXTNMkq-dPYjGj/preview",
-                    "https://drive.google.com/file/d/1LD5wBN5OK4ABGRVVgmolslQGmh16qRln/preview",
-                    "https://drive.google.com/file/d/1QYVhdgI2141a-qONQ9KZ3NdBWepbYXqK/preview",
-                    "https://drive.google.com/file/d/1dlsIKBEh-GzR2hyFp-K7httntR_Whokr/preview",
-                    "https://drive.google.com/file/d/1dlsIKBEh-GzR2hyFp-K7httntR_Whokr/preview",
-                                       
+                    "https://drive.google.com/file/d/1zcja-n3NIWuRJDgeUZvxP5VIgDIHBtOy/preview",
+                    "https://drive.google.com/file/d/1IjH_WDRmDaq3qzpRS9ZQ8J8amZkkCbxY/preview",
+                    "https://drive.google.com/file/d/1oSYyUc1SY4gjv6H2Ue4Qa1mU9_IU4D40/preview",
                 ]
-            }
+            },
+            {
+                projectName: "Klaxxon - (I)-dle Cover by Genesis Dance Crew",
+                thumbnail: "https://drive.google.com/file/d/1XjgdqSGDushb5v8x3MXHFFPt6lVfSMaw/preview",
+                designs : [
+                    "https://drive.google.com/file/d/1h0LhLcucMJY8PuKqWk34lQ2Zvd7kUzxm/preview",
+                    "https://drive.google.com/file/d/1SlRrszzzM9j4ZN0slfZuJpoeJDURBfoI/preview",
+                    "https://drive.google.com/file/d/1b2d3g4h5i6j7k8l9m0n1o2p3q4r5s6t7/preview",
+                    "https://drive.google.com/file/d/1u3ln7OvvbE9gfd-fSCOS_P6WGYR2sf4T/preview",
+                    "https://drive.google.com/file/d/1Ed9DmQTWe5k60GXrB9fYHg1ImWtK5I2p/preview",
+                    "https://drive.google.com/file/d/1ys599qd1MJY36ZRN-IHBNc9aKK1y6g9H/preview",
+                    "https://drive.google.com/file/d/1XjgdqSGDushb5v8x3MXHFFPt6lVfSMaw/preview",
+                ]
+            },
+            {
+                projectName:"Psycho - Red Velvet Cover by Genesis Dance Crew",
+                thumbnail: "https://drive.google.com/file/d/1Q5TF_SRXo0Mb0O9ibkztbcI4Mqyis7EZ/preview",
+                designs : [
+                    "https://drive.google.com/file/d/1Q5TF_SRXo0Mb0O9ibkztbcI4Mqyis7EZ/preview",
+                ]
+            },
+            {
+                projectName: "Untouchable - Itzy Cover by Genesis Dance Crew",
+                thumbnail: "https://drive.google.com/file/d/1vMLCzxB-CUiVWtNd2Nwlre9tIdY6mPtu/preview",
+                designs : [ 
+                    "https://drive.google.com/file/d/1vMLCzxB-CUiVWtNd2Nwlre9tIdY6mPtu/preview",
+                ]
+            },
+            {
+                projectName: "Genesis Background CASA performance",
+                thumbnail: "https://drive.google.com/file/d/11USex-OBe0beTOegGAlFZNZD8icVTB02/preview",
+                designs : [
+                    "https://drive.google.com/file/d/11USex-OBe0beTOegGAlFZNZD8icVTB02/preview",
+                ]
+            },
+        
+            { 
+                projectName: "Genesis Background Plot Twist performance",
+                thumbnail: "https://drive.google.com/file/d/10JQU3-RujGS4X4vz2eHB58SaSXa-wJzT/preview",
+                designs : [
+                    "https://drive.google.com/file/d/10JQU3-RujGS4X4vz2eHB58SaSXa-wJzT/preview",
+                ]
+             }
             
             
         ]
     },
     {
-        name: "Peruvian American Student Society 2024-2025 Eboard Reveal",
-        designs: [
-
+        name: "Peruvian American Student Society",
+        projects :[
+            {
+                projectName: "Peruvian American Student Society 2024-2025 Eboard Reveal",
+                thumbnail: "https://drive.google.com/file/d/1Sv-w3e1QfO49hIhz06ei1js3KDpUtf6c/preview",
+                designs : [
+                    "https://drive.google.com/file/d/1Sv-w3e1QfO49hIhz06ei1js3KDpUtf6c/preview",
+                    "https://drive.google.com/file/d/1xZiHmuPJPgbzU6mWnW4O4snFyP7jAjFB/preview",
+                    "https://drive.google.com/file/d/1sU1f01rn9ZOQOAwRLAu47lLnSEuohw2y/preview",
+                    "https://drive.google.com/file/d/1NkYkCOAOvSgWiS3KCF6YVyho2TC13DC0/preview",
+                    "https://drive.google.com/file/d/1NW7AD2Sf4sMi-P8DC_7EaZ7D03n0Mezn/preview",
+                    "https://drive.google.com/file/d/1JDmH_-Yxgl81YdNADAAn7KLgSbQP7AgK/preview",
+                    "https://drive.google.com/file/d/1-p4EqOzibR2TykqGHPCCi83tNjKJg9lc/preview",
+                ]
+            }
         ]
     }
 
