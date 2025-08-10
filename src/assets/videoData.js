@@ -1,9 +1,11 @@
+import { desc } from "motion/react-client"
 
 
 
 export const horizonalData = [
     {
         name: "Echos by Hollow",
+    
         src: "https://drive.google.com/file/d/1BwMvEGEwBir_IeBozL27crhRN5kNSw5x/preview"
     },
     {

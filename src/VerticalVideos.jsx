@@ -20,11 +20,11 @@ const settings = {
   return (
     <>
     <div className="w-4xl justify-center m-auto ">
-      <Slider {...settings}>
+      <Slider {...settings} className="flex justify-center items-center">
       {verticalData.map ((d) => (
-        <div className="bg-purple-200 w-auto ml-auto mr-auto mt-4 mb-4  text-black rounded-xl">
-          <div className="p-3 m-auto  rounded-t-xl">
-             <iframe className="h-[50vh] w-full m-auto border-none" allow="autoplay" src={d.src} controls/>
+        <div className="flex justify-center items-center flex-col mt-4 mb-4 text-white rounded-xl">
+          <div className="p-3 m-auto flex justify-center items-center rounded-t-xl">
+             <iframe className="h-[50vh] w-[30vw] border-none" allow="autoplay" src={d.src} controls/>
           </div>
           
           <div className="flex flex-col justify-center items-center gap-4 p-4" >

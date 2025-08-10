@@ -22,7 +22,7 @@ const settings = {
     <div className="w-4xl justify-center m-auto ">
       <Slider {...settings}>
       {horizonalData.map ((d) => (
-        <div className="bg-purple-200  ml-auto mr-auto mt-4 mb-4  text-black rounded-xl">
+        <div className="ml-auto mr-auto mt-4 mb-4  text-white rounded-xl">
           <div className="p-3 m-auto  rounded-t-xl">
              <iframe src={d.src}  allow="autoplay" className=" h-[50vh] w-full border-none" controls/>
           </div>

@@ -86,8 +86,7 @@ export var graphicData = [
                 designs : [
                     "src/assets/ari-content/Graphic Design/1. Genesis Dance Crew/h. “Plot Twist - TWS” Background Design for Genesis Dance Crew.png",
                 ]
-             }
-            
+             },            
             
         ]
     },

@@ -40,6 +40,7 @@
   --animate-fadeInUp: fadeInUp 0.5s forwards;
   --animate-fadeInUp2: fadeInUp2 1s forwards;
   --animate-circleIn: appear 0.5s forwards;
+  --animate-fadeInUp3: fadeInUp3 2s forwards;
 }
 
 @keyframes fadeInUp {
@@ -78,6 +79,28 @@
     visibility: visible;
   }
 }
+@keyframes fadeInUp3 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    visibility: hidden;
+  }
+  50% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    visibility: hidden;
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+}
+
 body {
   margin: auto;
   min-width: 320px;
@@ -153,7 +176,8 @@ h1 {
   color: #3d1919!important;
   text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 50px #ffffff, 0 0 60px #ffffff, 0 0 70px #ffffff;
   text-shadow:color-mix(in hsl shorter hue, color percentage, color percentage);
-  padding: 20px
+  padding: 20px;
+  text-align: center;
 }
 h3 {
   font-family: "TiffanyLight";

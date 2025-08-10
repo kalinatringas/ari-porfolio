@@ -6,7 +6,7 @@ import VideoCarousel from "./VideoCarousel"
 function Videography(){
     return(
         <>
-        <h1 className="animate-fadeInUp">
+        <h1 className="animate-fadeInUp m-auto self-center">
             Videography
         </h1>
         <VideoCarousel/>
