@@ -14,6 +14,7 @@ export const horizonalData = [
         name: "Gnarly - Katseye",
         src: "https://drive.google.com/file/d/1_p_C4p5ugYwlWNFAw26b5E3dZxqzieOT/preview"
     },
+    
     {
         name: "Klaxon - (I)-dle",
         src: "https://drive.google.com/file/d/1lt96sjSCA9aqzRdcI7_jbXIw5Canjj0n/preview"
@@ -60,7 +61,7 @@ export const verticalData = [
     },
     {
         name: "Hollow - Stray Kids Sony Challenge by Genesis Dance Crew",
-        src: "https://drive.google.com/file/d/1Nk0YLejHvH4LBNnMLWmFJZJoMoxONAi5/preview"
+        src: "https://www.youtube.com/embed/yow4g_73Oqg"
     },
     {
         name: "Gnarly - Katseye Cover Teaser by Genesis Dance Crew",

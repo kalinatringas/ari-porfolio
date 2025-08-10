@@ -11,7 +11,7 @@ function GraphicDesign(){
 
     return(
         <>
-        <h1>
+        <h1 className="animate-fadeInUp">
             Graphic Design
         </h1>
         {selectedGallery ? (

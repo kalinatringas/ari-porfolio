@@ -2,6 +2,7 @@
 import { Modal } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 import Slider from "react-slick";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function GDmodals({ show, onHide, folder}){
 const settings = {
@@ -21,6 +22,8 @@ if (!folder) return null;
       aria-labelledby="contained-modal-title-vcenter"
       centered
       className="w-fit m-auto"
+      data-bs-theme="dark"
+      bg="dark"
     >
       <Modal.Header closeButton>
         <Modal.Title id="contained-modal-title-vcenter">

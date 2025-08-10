@@ -7,9 +7,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function Navigate() {
   return (
     
-    <Navbar expand="lg" bg="dark" data-bs-theme="dark" className='bg-purple-100 text-white'>
+    <Navbar expand="lg" bg="dark" data-bs-theme="dark" className='static'>
       <Container>
-        <Navbar.Brand href="Home" className='hover:animate-bounce'>Ari Paul-Forton</Navbar.Brand>
+        <Navbar.Brand href="Home">Ari Paul-Forton</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

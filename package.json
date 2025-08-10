@@ -12,8 +12,10 @@
   "dependencies": {
     "@react-spring/web": "^10.0.0",
     "@tailwindcss/vite": "^4.1.10",
+    "animate.css": "^4.1.1",
     "bootstrap": "^5.3.6",
     "flickity": "^2.3.0",
+    "motion": "^12.23.12",
     "react": "^19.1.0",
     "react-bits": "^1.0.5",
     "react-bootstrap": "^2.10.10",

@@ -1,33 +1,57 @@
-import { photoData } from "./assets/photoData";
 
-function PhotographyGroup(selectedGallery) {
+import { Modal } from "react-bootstrap";
+import { Button } from "react-bootstrap";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
 
-  const gallery = photoData.find(g => g.id === selectedGallery.selectedGallery);
+function PhotographyGroup({show, onHide, gallery}) {
+
   if (!gallery) return null;
 
-  const allPhotos = Object.keys(gallery)
-    .filter(key => key.startsWith('photo')) 
-    .map(key => gallery[key]);
-
+  const settings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1
+    
+  }
     return (
-    <div className=" max-w-[1200px] m-auto">
-      <div  className="grid grid-rows-2 gap-1 jusify-center m-auto mask-clip-fill">
-        {allPhotos.map((url, idx) =>(
-          <img
-          key={url}
-          src={url}
-          alt={`${gallery.name}`}
-          className="w-auto h-80 m-auto"
-          style={{
-            gridRow: idx < Math.ceil(allPhotos.length/2) ?1 :2
-          }}
-          />
-        )
-      
-      )}
+    <>
+      <Modal
+        show={show} onHide={onHide}
+        size="lg"
+        aria-labelledby="contained-modal-title-vcenter"
+        centered
+        className="w-fit m-auto"
+      >
+          <Modal.Header closeButton>
+            <Modal.Title id="contained-modal-title-vcenter">
+              {gallery.name}
+            </Modal.Title>
+          </Modal.Header>
+          <Modal.Body>
+            <div>
 
-      </div>
-    </div>
+              <Slider {...settings} >
+                {gallery.photos.map((url, index) => (
+                  <div key={index} className="m-auto">
+                    <img
+                  key={url}
+                  src={url}
+                  alt={`${gallery.name}`}
+                  className="w-auto max-h-[75vh] h-auto m-auto justify-around"
+               />
+                  </div>
+                ))}
+              </Slider>
+
+            </div>
+          </Modal.Body>
+          <Modal.Footer>
+            <Button onClick={onHide}>Close</Button>
+          </Modal.Footer>
+        </Modal></>
     );
 }
 export default PhotographyGroup;

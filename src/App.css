@@ -1,13 +1,10 @@
-#root {
-  margin: 0 auto;
-  text-align: center;
-}
+
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #5f3677;
+  background-color: #371d46;
   width: 100%;
   color: #ffffff;
   padding: 1rem;
