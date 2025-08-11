@@ -80,9 +80,8 @@ body::after {
 }
 
 .modal-content {
-  background-color: rgba(73, 38, 138, 0.8);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  background-color: rgb(40, 39, 44);
+  opacity: 1;
 }
 
 

@@ -26,7 +26,7 @@ function PhotographyGroup({show, onHide, gallery}) {
         className="w-fit m-auto"
       >
           <Modal.Header closeButton>
-            <Modal.Title id="contained-modal-title-vcenter">
+            <Modal.Title id="contained-modal-title-vcenter" className="text-white">
               {gallery.name}
             </Modal.Title>
           </Modal.Header>
@@ -40,7 +40,7 @@ function PhotographyGroup({show, onHide, gallery}) {
                   key={url}
                   src={url}
                   alt={`${gallery.name}`}
-                  className="w-auto max-h-[75vh] h-auto m-auto justify-around"
+                  className="w-auto max-h-[60vh] h-auto m-auto justify-around"
                />
                   </div>
                 ))}
