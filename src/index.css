@@ -195,7 +195,7 @@ h3 {
   color: #ffffff; 
 }
 
-.nav-tabs .nav-link:hover{
-  color: #43355e; 
+.nav-tabs .nav-link :hover{
+  color: #8167b1; 
 
 }
