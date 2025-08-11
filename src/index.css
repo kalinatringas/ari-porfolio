@@ -191,4 +191,11 @@ h3 {
   font-size: large !important;
 }
 
+.nav-tabs .nav-link {
+  color: #ffffff; 
+}
 
+.nav-tabs .nav-link:hover{
+  color: #43355e; 
+
+}
